@@ -1,101 +1,194 @@
 {
-  "last_updated": "2026-06-09T10:00:00Z",
+  "last_updated": "2026-06-09T14:30:00Z",
   "date": "2026-06-09",
-  "picks": [
+  "games": [
     {
-      "id": "mlb-2026-06-09-nyy-bos",
-      "type": "moneyline",
+      "id": "mlb-bos-nyy",
       "sport": "MLB",
-      "game": "Yankees vs Red Sox",
-      "pick": "Yankees ML",
-      "odds": -115,
-      "confidence": "High",
-      "edge_pct": 7.4,
-      "reasoning": "Gerrit Cole on the mound. Red Sox missing two lineup pieces. Yankees 8-2 at home this month.",
-      "status": "PENDING",
-      "units": 1,
-      "game_time": "2026-06-09T19:05:00Z"
+      "away": "Boston Red Sox",
+      "home": "New York Yankees",
+      "game_time": "2026-06-09T19:05:00Z",
+      "away_ml": 125, "home_ml": -145,
+      "away_rl": "+1.5", "away_rl_odds": -175, "home_rl": "-1.5", "home_rl_odds": 145,
+      "total": 8.5, "over_odds": -112, "under_odds": -108,
+      "sporty_pick": "home_ml",
+      "sporty_reasoning": "Cole on the mound. Yankees 8-2 at home this month."
     },
     {
-      "id": "mlb-2026-06-09-lad-sd-total",
-      "type": "total",
+      "id": "mlb-lad-sd",
+      "sport": "MLB",
+      "away": "Los Angeles Dodgers",
+      "home": "San Diego Padres",
+      "game_time": "2026-06-09T22:10:00Z",
+      "away_ml": -135, "home_ml": 115,
+      "away_rl": "-1.5", "away_rl_odds": 125, "home_rl": "+1.5", "home_rl_odds": -148,
+      "total": 8.5, "over_odds": -115, "under_odds": -105,
+      "sporty_pick": "under",
+      "sporty_reasoning": "Glasnow vs Darvish. Both aces, low-run matchup."
+    },
+    {
+      "id": "mlb-hou-tex",
+      "sport": "MLB",
+      "away": "Houston Astros",
+      "home": "Texas Rangers",
+      "game_time": "2026-06-09T20:05:00Z",
+      "away_ml": -118, "home_ml": -102,
+      "away_rl": "-1.5", "away_rl_odds": 142, "home_rl": "+1.5", "home_rl_odds": -168,
+      "total": 9.0, "over_odds": -108, "under_odds": -112,
+      "sporty_pick": null,
+      "sporty_reasoning": null
+    },
+    {
+      "id": "mlb-atl-nym",
+      "sport": "MLB",
+      "away": "Atlanta Braves",
+      "home": "New York Mets",
+      "game_time": "2026-06-09T19:10:00Z",
+      "away_ml": -122, "home_ml": 102,
+      "away_rl": "-1.5", "away_rl_odds": 148, "home_rl": "+1.5", "home_rl_odds": -175,
+      "total": 8.0, "over_odds": -110, "under_odds": -110,
+      "sporty_pick": null,
+      "sporty_reasoning": null
+    },
+    {
+      "id": "mlb-chc-stl",
+      "sport": "MLB",
+      "away": "Chicago Cubs",
+      "home": "St. Louis Cardinals",
+      "game_time": "2026-06-09T20:15:00Z",
+      "away_ml": 108, "home_ml": -128,
+      "away_rl": "+1.5", "away_rl_odds": -185, "home_rl": "-1.5", "home_rl_odds": 155,
+      "total": 7.5, "over_odds": -105, "under_odds": -115,
+      "sporty_pick": null,
+      "sporty_reasoning": null
+    },
+    {
+      "id": "mlb-tor-bal",
+      "sport": "MLB",
+      "away": "Toronto Blue Jays",
+      "home": "Baltimore Orioles",
+      "game_time": "2026-06-09T19:05:00Z",
+      "away_ml": 115, "home_ml": -135,
+      "away_rl": "+1.5", "away_rl_odds": -160, "home_rl": "-1.5", "home_rl_odds": 135,
+      "total": 8.5, "over_odds": -110, "under_odds": -110,
+      "sporty_pick": null,
+      "sporty_reasoning": null
+    }
+  ],
+  "props": [
+    {
+      "id": "cole-ks",
+      "sport": "MLB",
+      "game": "Red Sox vs Yankees",
+      "player": "Gerrit Cole",
+      "team": "NYY",
+      "prop": "Strikeouts",
+      "line": 7.5,
+      "over_odds": -120,
+      "under_odds": 100,
+      "sporty_pick": "over",
+      "sporty_reasoning": "Cole averaging 9.2 K/9 over last 8 starts. Red Sox K rate 24% vs RHP."
+    },
+    {
+      "id": "judge-hr",
+      "sport": "MLB",
+      "game": "Red Sox vs Yankees",
+      "player": "Aaron Judge",
+      "team": "NYY",
+      "prop": "Home Run",
+      "line": 0.5,
+      "over_odds": 310,
+      "under_odds": -420,
+      "sporty_pick": null,
+      "sporty_reasoning": null
+    },
+    {
+      "id": "glasnow-ks",
       "sport": "MLB",
       "game": "Dodgers vs Padres",
-      "pick": "Under 8.5",
-      "odds": -108,
-      "confidence": "Medium",
-      "edge_pct": 4.2,
-      "reasoning": "Glasnow vs Darvish — two of the best starters in the NL. Combined recent ERA under 2.8.",
-      "status": "PENDING",
-      "units": 1,
-      "game_time": "2026-06-09T22:10:00Z"
+      "player": "Tyler Glasnow",
+      "team": "LAD",
+      "prop": "Strikeouts",
+      "line": 8.5,
+      "over_odds": -105,
+      "under_odds": -115,
+      "sporty_pick": "over",
+      "sporty_reasoning": "Glasnow avg 10.4 K/9 at home. Padres strike out at 23% clip this month."
     },
     {
-      "id": "mlb-2026-06-09-cole-strikeouts",
-      "type": "prop",
+      "id": "betts-hits",
       "sport": "MLB",
-      "game": "Yankees vs Red Sox",
-      "pick": "Gerrit Cole Over 7.5 Ks",
-      "odds": -120,
-      "confidence": "High",
-      "edge_pct": 9.1,
-      "reasoning": "Cole averaging 9.2 K/9 over his last 8 starts. Red Sox K rate is 24% vs RHP this month.",
-      "status": "PENDING",
-      "units": 1,
-      "game_time": "2026-06-09T19:05:00Z"
+      "game": "Dodgers vs Padres",
+      "player": "Mookie Betts",
+      "team": "LAD",
+      "prop": "Hits",
+      "line": 1.5,
+      "over_odds": 115,
+      "under_odds": -138,
+      "sporty_pick": null,
+      "sporty_reasoning": null
     },
     {
-      "id": "ufc-2026-06-07-pereira",
-      "type": "moneyline",
-      "sport": "UFC",
-      "game": "Pereira vs Rountree",
-      "pick": "Pereira ML",
-      "odds": -180,
-      "confidence": "High",
-      "edge_pct": 11.2,
-      "reasoning": "Pereira's reach and striking output dominate this matchup. Rountree stopped twice by power strikers.",
-      "status": "PENDING",
-      "units": 2,
-      "game_time": "2026-06-09T23:00:00Z"
+      "id": "tatis-hits",
+      "sport": "MLB",
+      "game": "Dodgers vs Padres",
+      "player": "Fernando Tatis Jr.",
+      "team": "SD",
+      "prop": "Total Bases",
+      "line": 1.5,
+      "over_odds": -125,
+      "under_odds": 105,
+      "sporty_pick": null,
+      "sporty_reasoning": null
+    },
+    {
+      "id": "altuve-hits",
+      "sport": "MLB",
+      "game": "Astros vs Rangers",
+      "player": "Jose Altuve",
+      "team": "HOU",
+      "prop": "Hits",
+      "line": 1.5,
+      "over_odds": 105,
+      "under_odds": -128,
+      "sporty_pick": null,
+      "sporty_reasoning": null
     }
   ],
   "parlays": [
     {
-      "id": "parlay-2026-06-09-a",
+      "id": "parlay-a",
       "name": "2-Leg Hammer",
       "legs": [
-        { "game": "Yankees vs Red Sox", "pick": "Yankees ML", "odds": -115 },
+        { "game": "Red Sox vs Yankees", "pick": "Yankees ML", "odds": -145 },
         { "game": "Dodgers vs Padres", "pick": "Under 8.5", "odds": -108 }
       ],
       "combined_odds": "+241",
       "payout_on_10": "$34.10",
-      "confidence": "Medium",
-      "reasoning": "Two high-confidence pitcher-driven plays. Both lean on elite starters going deep."
+      "reasoning": "Both plays are pitcher-driven. Cole and Glasnow carrying their teams tonight."
     },
     {
-      "id": "parlay-2026-06-09-b",
-      "name": "Strikeout Special",
+      "id": "parlay-b",
+      "name": "Strikeout Stack",
       "legs": [
-        { "game": "Yankees vs Red Sox", "pick": "Cole Over 7.5 Ks", "odds": -120 },
-        { "game": "Yankees vs Red Sox", "pick": "Yankees ML", "odds": -115 }
+        { "game": "Red Sox vs Yankees", "pick": "Cole Over 7.5 Ks", "odds": -120 },
+        { "game": "Dodgers vs Padres", "pick": "Glasnow Over 8.5 Ks", "odds": -105 }
       ],
       "combined_odds": "+185",
       "payout_on_10": "$28.50",
-      "confidence": "High",
-      "reasoning": "Stack the same game — Cole dominates and Yankees win. Both outcomes tied to same performance."
+      "reasoning": "Two elite strikeout arms against high-K lineups. Same-night prop stack."
     },
     {
-      "id": "parlay-2026-06-09-c",
+      "id": "parlay-c",
       "name": "3-Leg Card",
       "legs": [
-        { "game": "Yankees vs Red Sox", "pick": "Yankees ML", "odds": -115 },
+        { "game": "Red Sox vs Yankees", "pick": "Yankees ML", "odds": -145 },
         { "game": "Dodgers vs Padres", "pick": "Under 8.5", "odds": -108 },
-        { "game": "Pereira vs Rountree", "pick": "Pereira ML", "odds": -180 }
+        { "game": "Red Sox vs Yankees", "pick": "Cole Over 7.5 Ks", "odds": -120 }
       ],
       "combined_odds": "+412",
       "payout_on_10": "$51.20",
-      "confidence": "Medium",
-      "reasoning": "Three high-conviction plays across MLB and UFC. Higher risk, bigger payout."
+      "reasoning": "All three legs tied to the same bet — Cole dominates, Yankees win a low-scoring game."
     }
   ],
   "record": {
