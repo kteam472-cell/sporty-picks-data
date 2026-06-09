@@ -1,0 +1,52 @@
+{
+  "last_updated": "2026-06-09T10:00:00Z",
+  "record": {
+    "wins": 1,
+    "losses": 0,
+    "pushes": 0,
+    "win_rate": "100%",
+    "roi": "+8.7%",
+    "streak": "W1"
+  },
+  "picks": [
+    {
+      "id": "mlb-2026-06-09-nyy-bos",
+      "sport": "MLB",
+      "game": "Yankees vs Red Sox",
+      "pick": "Yankees ML",
+      "odds": -115,
+      "confidence": "High",
+      "edge_pct": 7.4,
+      "reasoning": "Gerrit Cole on the mound with a 2.31 ERA over his last 6 starts. Red Sox missing two middle-of-order bats. Yankees 8-2 at home this month.",
+      "status": "PENDING",
+      "units": 1,
+      "game_time": "2026-06-09T19:05:00Z"
+    },
+    {
+      "id": "mlb-2026-06-09-lad-sd",
+      "sport": "MLB",
+      "game": "Dodgers vs Padres",
+      "pick": "Under 8.5",
+      "odds": -108,
+      "confidence": "Medium",
+      "edge_pct": 4.2,
+      "reasoning": "Both aces going — Glasnow vs Darvish. Combined ERA under 2.8 in recent starts. Low wind, pitcher-friendly conditions.",
+      "status": "WON",
+      "units": 1,
+      "game_time": "2026-06-08T22:10:00Z"
+    },
+    {
+      "id": "ufc-2026-06-07-pereira-rountree",
+      "sport": "UFC",
+      "game": "Pereira vs Rountree",
+      "pick": "Pereira ML",
+      "odds": -180,
+      "confidence": "High",
+      "edge_pct": 11.2,
+      "reasoning": "Pereira's striking output and reach advantage are decisive. Rountree has been stopped by power strikers twice in his last 4 fights. Style matchup heavily favors Pereira.",
+      "status": "WON",
+      "units": 2,
+      "game_time": "2026-06-07T23:00:00Z"
+    }
+  ]
+}
