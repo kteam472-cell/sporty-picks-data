@@ -1,52 +1,105 @@
 {
   "last_updated": "2026-06-09T10:00:00Z",
-  "record": {
-    "wins": 1,
-    "losses": 0,
-    "pushes": 0,
-    "win_rate": "100%",
-    "roi": "+8.7%",
-    "streak": "W1"
-  },
+  "date": "2026-06-09",
   "picks": [
     {
       "id": "mlb-2026-06-09-nyy-bos",
+      "type": "moneyline",
       "sport": "MLB",
       "game": "Yankees vs Red Sox",
       "pick": "Yankees ML",
       "odds": -115,
       "confidence": "High",
       "edge_pct": 7.4,
-      "reasoning": "Gerrit Cole on the mound with a 2.31 ERA over his last 6 starts. Red Sox missing two middle-of-order bats. Yankees 8-2 at home this month.",
+      "reasoning": "Gerrit Cole on the mound. Red Sox missing two lineup pieces. Yankees 8-2 at home this month.",
       "status": "PENDING",
       "units": 1,
       "game_time": "2026-06-09T19:05:00Z"
     },
     {
-      "id": "mlb-2026-06-09-lad-sd",
+      "id": "mlb-2026-06-09-lad-sd-total",
+      "type": "total",
       "sport": "MLB",
       "game": "Dodgers vs Padres",
       "pick": "Under 8.5",
       "odds": -108,
       "confidence": "Medium",
       "edge_pct": 4.2,
-      "reasoning": "Both aces going — Glasnow vs Darvish. Combined ERA under 2.8 in recent starts. Low wind, pitcher-friendly conditions.",
-      "status": "WON",
+      "reasoning": "Glasnow vs Darvish — two of the best starters in the NL. Combined recent ERA under 2.8.",
+      "status": "PENDING",
       "units": 1,
-      "game_time": "2026-06-08T22:10:00Z"
+      "game_time": "2026-06-09T22:10:00Z"
     },
     {
-      "id": "ufc-2026-06-07-pereira-rountree",
+      "id": "mlb-2026-06-09-cole-strikeouts",
+      "type": "prop",
+      "sport": "MLB",
+      "game": "Yankees vs Red Sox",
+      "pick": "Gerrit Cole Over 7.5 Ks",
+      "odds": -120,
+      "confidence": "High",
+      "edge_pct": 9.1,
+      "reasoning": "Cole averaging 9.2 K/9 over his last 8 starts. Red Sox K rate is 24% vs RHP this month.",
+      "status": "PENDING",
+      "units": 1,
+      "game_time": "2026-06-09T19:05:00Z"
+    },
+    {
+      "id": "ufc-2026-06-07-pereira",
+      "type": "moneyline",
       "sport": "UFC",
       "game": "Pereira vs Rountree",
       "pick": "Pereira ML",
       "odds": -180,
       "confidence": "High",
       "edge_pct": 11.2,
-      "reasoning": "Pereira's striking output and reach advantage are decisive. Rountree has been stopped by power strikers twice in his last 4 fights. Style matchup heavily favors Pereira.",
-      "status": "WON",
+      "reasoning": "Pereira's reach and striking output dominate this matchup. Rountree stopped twice by power strikers.",
+      "status": "PENDING",
       "units": 2,
-      "game_time": "2026-06-07T23:00:00Z"
+      "game_time": "2026-06-09T23:00:00Z"
     }
-  ]
+  ],
+  "parlays": [
+    {
+      "id": "parlay-2026-06-09-a",
+      "name": "2-Leg Hammer",
+      "legs": [
+        { "game": "Yankees vs Red Sox", "pick": "Yankees ML", "odds": -115 },
+        { "game": "Dodgers vs Padres", "pick": "Under 8.5", "odds": -108 }
+      ],
+      "combined_odds": "+241",
+      "payout_on_10": "$34.10",
+      "confidence": "Medium",
+      "reasoning": "Two high-confidence pitcher-driven plays. Both lean on elite starters going deep."
+    },
+    {
+      "id": "parlay-2026-06-09-b",
+      "name": "Strikeout Special",
+      "legs": [
+        { "game": "Yankees vs Red Sox", "pick": "Cole Over 7.5 Ks", "odds": -120 },
+        { "game": "Yankees vs Red Sox", "pick": "Yankees ML", "odds": -115 }
+      ],
+      "combined_odds": "+185",
+      "payout_on_10": "$28.50",
+      "confidence": "High",
+      "reasoning": "Stack the same game — Cole dominates and Yankees win. Both outcomes tied to same performance."
+    },
+    {
+      "id": "parlay-2026-06-09-c",
+      "name": "3-Leg Card",
+      "legs": [
+        { "game": "Yankees vs Red Sox", "pick": "Yankees ML", "odds": -115 },
+        { "game": "Dodgers vs Padres", "pick": "Under 8.5", "odds": -108 },
+        { "game": "Pereira vs Rountree", "pick": "Pereira ML", "odds": -180 }
+      ],
+      "combined_odds": "+412",
+      "payout_on_10": "$51.20",
+      "confidence": "Medium",
+      "reasoning": "Three high-conviction plays across MLB and UFC. Higher risk, bigger payout."
+    }
+  ],
+  "record": {
+    "wins": 1, "losses": 0, "pushes": 0,
+    "win_rate": "100%", "roi": "+8.7%", "streak": "W1"
+  }
 }
