@@ -1,198 +1,40 @@
 {
-  "last_updated": "2026-06-09T14:30:00Z",
-  "date": "2026-06-09",
-  "games": [
+  "date": "2026-06-10",
+  "session": "daily-picks",
+  "picks": [
     {
-      "id": "mlb-bos-nyy",
       "sport": "MLB",
-      "away": "Boston Red Sox",
-      "home": "New York Yankees",
-      "game_time": "2026-06-09T19:05:00Z",
-      "away_ml": 125, "home_ml": -145,
-      "away_rl": "+1.5", "away_rl_odds": -175, "home_rl": "-1.5", "home_rl_odds": 145,
-      "total": 8.5, "over_odds": -112, "under_odds": -108,
-      "sporty_pick": "home_ml",
-      "sporty_reasoning": "Cole on the mound. Yankees 8-2 at home this month."
+      "game": "BOS Red Sox @ TB Rays",
+      "venue": "Tropicana Field",
+      "time_et": "1:10 PM",
+      "pick": "Tampa Bay Rays ML",
+      "line": -146,
+      "units": 0.2,
+      "edge_pct": 4.6,
+      "implied_prob": 59.4,
+      "true_prob_est": 64.0,
+      "reasoning": "Rasmussen (3.19 ERA, 8.4 K/9) vs Bennett (4.35 MLB ERA, 3rd start). Bennett already gave up 4 ER to TB in May. TB at home in dome. Familiarity edge for TB batters."
     },
     {
-      "id": "mlb-lad-sd",
-      "sport": "MLB",
-      "away": "Los Angeles Dodgers",
-      "home": "San Diego Padres",
-      "game_time": "2026-06-09T22:10:00Z",
-      "away_ml": -135, "home_ml": 115,
-      "away_rl": "-1.5", "away_rl_odds": 125, "home_rl": "+1.5", "home_rl_odds": -148,
-      "total": 8.5, "over_odds": -115, "under_odds": -105,
-      "sporty_pick": "under",
-      "sporty_reasoning": "Glasnow vs Darvish. Both aces, low-run matchup."
-    },
-    {
-      "id": "mlb-hou-tex",
-      "sport": "MLB",
-      "away": "Houston Astros",
-      "home": "Texas Rangers",
-      "game_time": "2026-06-09T20:05:00Z",
-      "away_ml": -118, "home_ml": -102,
-      "away_rl": "-1.5", "away_rl_odds": 142, "home_rl": "+1.5", "home_rl_odds": -168,
-      "total": 9.0, "over_odds": -108, "under_odds": -112,
-      "sporty_pick": null,
-      "sporty_reasoning": null
-    },
-    {
-      "id": "mlb-atl-nym",
-      "sport": "MLB",
-      "away": "Atlanta Braves",
-      "home": "New York Mets",
-      "game_time": "2026-06-09T19:10:00Z",
-      "away_ml": -122, "home_ml": 102,
-      "away_rl": "-1.5", "away_rl_odds": 148, "home_rl": "+1.5", "home_rl_odds": -175,
-      "total": 8.0, "over_odds": -110, "under_odds": -110,
-      "sporty_pick": null,
-      "sporty_reasoning": null
-    },
-    {
-      "id": "mlb-chc-stl",
-      "sport": "MLB",
-      "away": "Chicago Cubs",
-      "home": "St. Louis Cardinals",
-      "game_time": "2026-06-09T20:15:00Z",
-      "away_ml": 108, "home_ml": -128,
-      "away_rl": "+1.5", "away_rl_odds": -185, "home_rl": "-1.5", "home_rl_odds": 155,
-      "total": 7.5, "over_odds": -105, "under_odds": -115,
-      "sporty_pick": null,
-      "sporty_reasoning": null
-    },
-    {
-      "id": "mlb-tor-bal",
-      "sport": "MLB",
-      "away": "Toronto Blue Jays",
-      "home": "Baltimore Orioles",
-      "game_time": "2026-06-09T19:05:00Z",
-      "away_ml": 115, "home_ml": -135,
-      "away_rl": "+1.5", "away_rl_odds": -160, "home_rl": "-1.5", "home_rl_odds": 135,
-      "total": 8.5, "over_odds": -110, "under_odds": -110,
-      "sporty_pick": null,
-      "sporty_reasoning": null
+      "sport": "NBA",
+      "game": "SA Spurs @ NYK Knicks (NBA Finals G4)",
+      "venue": "Madison Square Garden",
+      "time_et": "8:30 PM",
+      "pick": "New York Knicks ML",
+      "line": -130,
+      "units": 0.2,
+      "edge_pct": 3.5,
+      "implied_prob": 56.5,
+      "true_prob_est": 60.0,
+      "reasoning": "Knicks lead series 2-1, at home (MSG). Historical Finals home win ~63%. Brunson active (32 pts G3). Small but documented home court edge."
     }
   ],
-  "props": [
-    {
-      "id": "cole-ks",
-      "sport": "MLB",
-      "game": "Red Sox vs Yankees",
-      "player": "Gerrit Cole",
-      "team": "NYY",
-      "prop": "Strikeouts",
-      "line": 7.5,
-      "over_odds": -120,
-      "under_odds": 100,
-      "sporty_pick": "over",
-      "sporty_reasoning": "Cole averaging 9.2 K/9 over last 8 starts. Red Sox K rate 24% vs RHP."
-    },
-    {
-      "id": "judge-hr",
-      "sport": "MLB",
-      "game": "Red Sox vs Yankees",
-      "player": "Aaron Judge",
-      "team": "NYY",
-      "prop": "Home Run",
-      "line": 0.5,
-      "over_odds": 310,
-      "under_odds": -420,
-      "sporty_pick": null,
-      "sporty_reasoning": null
-    },
-    {
-      "id": "glasnow-ks",
-      "sport": "MLB",
-      "game": "Dodgers vs Padres",
-      "player": "Tyler Glasnow",
-      "team": "LAD",
-      "prop": "Strikeouts",
-      "line": 8.5,
-      "over_odds": -105,
-      "under_odds": -115,
-      "sporty_pick": "over",
-      "sporty_reasoning": "Glasnow avg 10.4 K/9 at home. Padres strike out at 23% clip this month."
-    },
-    {
-      "id": "betts-hits",
-      "sport": "MLB",
-      "game": "Dodgers vs Padres",
-      "player": "Mookie Betts",
-      "team": "LAD",
-      "prop": "Hits",
-      "line": 1.5,
-      "over_odds": 115,
-      "under_odds": -138,
-      "sporty_pick": null,
-      "sporty_reasoning": null
-    },
-    {
-      "id": "tatis-hits",
-      "sport": "MLB",
-      "game": "Dodgers vs Padres",
-      "player": "Fernando Tatis Jr.",
-      "team": "SD",
-      "prop": "Total Bases",
-      "line": 1.5,
-      "over_odds": -125,
-      "under_odds": 105,
-      "sporty_pick": null,
-      "sporty_reasoning": null
-    },
-    {
-      "id": "altuve-hits",
-      "sport": "MLB",
-      "game": "Astros vs Rangers",
-      "player": "Jose Altuve",
-      "team": "HOU",
-      "prop": "Hits",
-      "line": 1.5,
-      "over_odds": 105,
-      "under_odds": -128,
-      "sporty_pick": null,
-      "sporty_reasoning": null
-    }
-  ],
-  "parlays": [
-    {
-      "id": "parlay-a",
-      "name": "2-Leg Hammer",
-      "legs": [
-        { "game": "Red Sox vs Yankees", "pick": "Yankees ML", "odds": -145 },
-        { "game": "Dodgers vs Padres", "pick": "Under 8.5", "odds": -108 }
-      ],
-      "combined_odds": "+241",
-      "payout_on_10": "$34.10",
-      "reasoning": "Both plays are pitcher-driven. Cole and Glasnow carrying their teams tonight."
-    },
-    {
-      "id": "parlay-b",
-      "name": "Strikeout Stack",
-      "legs": [
-        { "game": "Red Sox vs Yankees", "pick": "Cole Over 7.5 Ks", "odds": -120 },
-        { "game": "Dodgers vs Padres", "pick": "Glasnow Over 8.5 Ks", "odds": -105 }
-      ],
-      "combined_odds": "+185",
-      "payout_on_10": "$28.50",
-      "reasoning": "Two elite strikeout arms against high-K lineups. Same-night prop stack."
-    },
-    {
-      "id": "parlay-c",
-      "name": "3-Leg Card",
-      "legs": [
-        { "game": "Red Sox vs Yankees", "pick": "Yankees ML", "odds": -145 },
-        { "game": "Dodgers vs Padres", "pick": "Under 8.5", "odds": -108 },
-        { "game": "Red Sox vs Yankees", "pick": "Cole Over 7.5 Ks", "odds": -120 }
-      ],
-      "combined_odds": "+412",
-      "payout_on_10": "$51.20",
-      "reasoning": "All three legs tied to the same bet — Cole dominates, Yankees win a low-scoring game."
-    }
-  ],
-  "record": {
-    "wins": 1, "losses": 0, "pushes": 0,
-    "win_rate": "100%", "roi": "+8.7%", "streak": "W1"
-  }
+  "total_units": 0.4,
+  "notes": "Telegram blocked in cloud session. Picks logged to GitHub for manual placement on Hard Rock Bet.",
+  "skipped": [
+    "LAD @ PIT: Ohtani going but -196 juice + 52% rain at PNC Park. Marginal edge negated by weather risk.",
+    "CIN @ SD: SD -164 with King (2.41 ERA) vs Singer (5.89 ERA). Market fairly priced.",
+    "NYY @ CLE: 48% rain risk at Progressive Field kills otherwise borderline +3% edge on Messick.",
+    "SEA @ BAL: Kirby (4.04) vs Young (3.47). Insufficient edge on matchup."
+  ]
 }
