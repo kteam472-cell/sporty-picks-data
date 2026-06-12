@@ -1,40 +1,47 @@
 {
-  "date": "2026-06-10",
-  "session": "daily-picks",
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T14:13:00Z",
+  "sport": "MLB",
   "picks": [
     {
-      "sport": "MLB",
-      "game": "BOS Red Sox @ TB Rays",
-      "venue": "Tropicana Field",
-      "time_et": "1:10 PM",
-      "pick": "Tampa Bay Rays ML",
-      "line": -146,
-      "units": 0.2,
-      "edge_pct": 4.6,
-      "implied_prob": 59.4,
-      "true_prob_est": 64.0,
-      "reasoning": "Rasmussen (3.19 ERA, 8.4 K/9) vs Bennett (4.35 MLB ERA, 3rd start). Bennett already gave up 4 ER to TB in May. TB at home in dome. Familiarity edge for TB batters."
+      "game": "PHI Phillies @ MIL Brewers",
+      "time": "7:40 PM ET",
+      "venue": "American Family Field, Milwaukee WI",
+      "bet_type": "Total",
+      "pick": "Under 7.5",
+      "line": "-104",
+      "units": 0.3,
+      "edge_pct": 11,
+      "reasoning": "Misiorowski (7-2, 1.50 ERA, 98th-pct K-rate) projects to hold PHI to 1-2 runs. Painter (1-7, 6.21 ERA) gives up 4-5. Expected total ~6, well under 7.5. Near even-money price on elite ace start.",
+      "starters_confirmed": true,
+      "away_starter": "Andrew Painter (PHI) — 1-7, 6.21 ERA",
+      "home_starter": "Jacob Misiorowski (MIL) — 7-2, 1.50 ERA"
     },
     {
-      "sport": "NBA",
-      "game": "SA Spurs @ NYK Knicks (NBA Finals G4)",
-      "venue": "Madison Square Garden",
-      "time_et": "8:30 PM",
-      "pick": "New York Knicks ML",
-      "line": -130,
-      "units": 0.2,
-      "edge_pct": 3.5,
-      "implied_prob": 56.5,
-      "true_prob_est": 60.0,
-      "reasoning": "Knicks lead series 2-1, at home (MSG). Historical Finals home win ~63%. Brunson active (32 pts G3). Small but documented home court edge."
+      "game": "PHI Phillies @ MIL Brewers",
+      "time": "7:40 PM ET",
+      "venue": "American Family Field, Milwaukee WI",
+      "bet_type": "Run Line",
+      "pick": "Brewers -1.5",
+      "line": "-115",
+      "units": 0.4,
+      "edge_pct": 15.5,
+      "reasoning": "Brewers go 9-4 ATS (69.2%) when Misiorowski starts as ML favorite. Run line at -115 offers dramatically better value than ML -250. Pitching mismatch strongly favors multi-run MIL win.",
+      "starters_confirmed": true,
+      "away_starter": "Andrew Painter (PHI) — 1-7, 6.21 ERA",
+      "home_starter": "Jacob Misiorowski (MIL) — 7-2, 1.50 ERA"
     }
   ],
-  "total_units": 0.4,
-  "notes": "Telegram blocked in cloud session. Picks logged to GitHub for manual placement on Hard Rock Bet.",
-  "skipped": [
-    "LAD @ PIT: Ohtani going but -196 juice + 52% rain at PNC Park. Marginal edge negated by weather risk.",
-    "CIN @ SD: SD -164 with King (2.41 ERA) vs Singer (5.89 ERA). Market fairly priced.",
-    "NYY @ CLE: 48% rain risk at Progressive Field kills otherwise borderline +3% edge on Messick.",
-    "SEA @ BAL: Kirby (4.04) vs Young (3.47). Insufficient edge on matchup."
-  ]
+  "no_bet_games": [
+    "SEA @ WSH — starters not confirmed at analysis time",
+    "TOR @ NYY — Judge on IL (priced in), starters not confirmed",
+    "BAL @ SD — starters not confirmed",
+    "ARI @ CIN — starters not confirmed",
+    "SF @ CHC — starters not confirmed",
+    "LAD @ CWS — Sasaki vs Kay, similar ERAs, no clear edge identified"
+  ],
+  "nba_note": "NBA Finals Game 5 (Knicks @ Spurs) is June 13, not today. Will analyze tomorrow.",
+  "bankroll_units": 22.87,
+  "total_units_at_risk": 0.7,
+  "status": "PENDING_MANUAL — Zack to place on Hard Rock Bet"
 }
