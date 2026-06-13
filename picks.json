@@ -1,47 +1,32 @@
 {
-  "date": "2026-06-12",
-  "generated_at": "2026-06-12T14:13:00Z",
-  "sport": "MLB",
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T14:10:00Z",
   "picks": [
     {
+      "sport": "MLB",
       "game": "PHI Phillies @ MIL Brewers",
-      "time": "7:40 PM ET",
-      "venue": "American Family Field, Milwaukee WI",
-      "bet_type": "Total",
-      "pick": "Under 7.5",
-      "line": "-104",
-      "units": 0.3,
-      "edge_pct": 11,
-      "reasoning": "Misiorowski (7-2, 1.50 ERA, 98th-pct K-rate) projects to hold PHI to 1-2 runs. Painter (1-7, 6.21 ERA) gives up 4-5. Expected total ~6, well under 7.5. Near even-money price on elite ace start.",
-      "starters_confirmed": true,
-      "away_starter": "Andrew Painter (PHI) — 1-7, 6.21 ERA",
-      "home_starter": "Jacob Misiorowski (MIL) — 7-2, 1.50 ERA"
-    },
-    {
-      "game": "PHI Phillies @ MIL Brewers",
-      "time": "7:40 PM ET",
-      "venue": "American Family Field, Milwaukee WI",
-      "bet_type": "Run Line",
-      "pick": "Brewers -1.5",
-      "line": "-115",
-      "units": 0.4,
-      "edge_pct": 15.5,
-      "reasoning": "Brewers go 9-4 ATS (69.2%) when Misiorowski starts as ML favorite. Run line at -115 offers dramatically better value than ML -250. Pitching mismatch strongly favors multi-run MIL win.",
-      "starters_confirmed": true,
-      "away_starter": "Andrew Painter (PHI) — 1-7, 6.21 ERA",
-      "home_starter": "Jacob Misiorowski (MIL) — 7-2, 1.50 ERA"
+      "time": "7:10 PM ET",
+      "venue": "American Family Field, Milwaukee",
+      "pick": "Brewers ML",
+      "line": "-142",
+      "units": 0.8,
+      "edge_pct": 5.3,
+      "confidence": "medium-high",
+      "reasoning": "Drohan (3-1, 3.11 ERA, 9.2 K/9) vs Nola (3-4, 5.86 ERA). Brewers home (42-25 record) vs struggling Phillies (37-32). Massive pitcher ERA gap. Series momentum after 6-0 shutout yesterday.",
+      "status": "PENDING_MANUAL"
     }
   ],
-  "no_bet_games": [
-    "SEA @ WSH — starters not confirmed at analysis time",
-    "TOR @ NYY — Judge on IL (priced in), starters not confirmed",
-    "BAL @ SD — starters not confirmed",
-    "ARI @ CIN — starters not confirmed",
-    "SF @ CHC — starters not confirmed",
-    "LAD @ CWS — Sasaki vs Kay, similar ERAs, no clear edge identified"
+  "skipped": [
+    {
+      "game": "DET Tigers @ CLE Guardians",
+      "bet": "Under 8",
+      "reason": "Skubal returning from elbow surgery adds pitch-count/bullpen uncertainty — edge estimate <3% threshold"
+    },
+    {
+      "game": "NBA Finals G5: NYK Knicks @ SA Spurs",
+      "bet": "Knicks +164",
+      "reason": "No B2B or rest-advantage framework edge documented. Knicks +164 tempting but rule: no feel bets."
+    }
   ],
-  "nba_note": "NBA Finals Game 5 (Knicks @ Spurs) is June 13, not today. Will analyze tomorrow.",
-  "bankroll_units": 22.87,
-  "total_units_at_risk": 0.7,
-  "status": "PENDING_MANUAL — Zack to place on Hard Rock Bet"
+  "bankroll_note": "Current bankroll: $29.23 | Daily wagered: $2.00 | Daily limit: $25"
 }
