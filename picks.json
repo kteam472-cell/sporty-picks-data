@@ -1,32 +1,48 @@
 {
-  "date": "2026-06-13",
-  "generated_at": "2026-06-13T14:10:00Z",
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T10:00:00Z",
   "picks": [
     {
       "sport": "MLB",
-      "game": "PHI Phillies @ MIL Brewers",
-      "time": "7:10 PM ET",
-      "venue": "American Family Field, Milwaukee",
-      "pick": "Brewers ML",
-      "line": "-142",
-      "units": 0.8,
-      "edge_pct": 5.3,
-      "confidence": "medium-high",
-      "reasoning": "Drohan (3-1, 3.11 ERA, 9.2 K/9) vs Nola (3-4, 5.86 ERA). Brewers home (42-25 record) vs struggling Phillies (37-32). Massive pitcher ERA gap. Series momentum after 6-0 shutout yesterday.",
-      "status": "PENDING_MANUAL"
-    }
-  ],
-  "skipped": [
-    {
-      "game": "DET Tigers @ CLE Guardians",
-      "bet": "Under 8",
-      "reason": "Skubal returning from elbow surgery adds pitch-count/bullpen uncertainty — edge estimate <3% threshold"
+      "game": "MIA Marlins @ PIT Pirates",
+      "time": "12:15 PM ET",
+      "venue": "PNC Park, Pittsburgh",
+      "pick": "Marlins ML",
+      "odds": "+140",
+      "units": 0.2,
+      "edge_pct": 4.8,
+      "starters": {
+        "away": "Max Meyer (6-0, 2.85 ERA, 1.09 WHIP, 10 K/9)",
+        "home": "Paul Skenes (6-5, 2.84 ERA, 0.93 WHIP)"
+      },
+      "reasoning": "Pitching essentially equal (2.85 vs 2.84 ERA) yet market prices Pirates at -166 (62.4% implied). Home advantage justifies ~53.5% for Pittsburgh. Marlins estimated true probability ~46.5% vs +140 implied of 41.7%. Meyer undefeated at 6-0 vs Skenes' 6-5 record. Market undervaluing Meyer's breakout season. Rubber game (series 1-1).",
+      "weather_note": "46% precip risk at 12:15 PM — postponement would void bet",
+      "series_context": "Rubber game. Series tied 1-1."
     },
     {
-      "game": "NBA Finals G5: NYK Knicks @ SA Spurs",
-      "bet": "Knicks +164",
-      "reason": "No B2B or rest-advantage framework edge documented. Knicks +164 tempting but rule: no feel bets."
+      "sport": "MLB",
+      "game": "STL Cardinals @ MIN Twins",
+      "time": "2:10 PM ET",
+      "venue": "Target Field, Minneapolis",
+      "pick": "Cardinals ML",
+      "odds": "+103 to +106",
+      "units": 0.2,
+      "edge_pct": 4.6,
+      "starters": {
+        "away": "Michael McGreevy (3-5, 2.99 ERA)",
+        "home": "Taj Bradley (5-3, 4.02 ERA)"
+      },
+      "reasoning": "Cardinals have the pitching edge (McGreevy 2.99 ERA vs Bradley 4.02 ERA), better offense (wRC+ 118 vs 111), and a significantly better bullpen (SIERA 3.38 vs 4.51). Cardinals ATS 9-4 in McGreevy starts. Near-even odds on a team with clear multi-factor edge. Perfect weather (sunny, 73F, 0% rain).",
+      "weather_note": "Perfect — sunny, 73F, 0% rain, 14-20 mph NW wind at Target Field",
+      "series_context": "Rubber game. Cardinals won yesterday 9-6. Series tied 1-1."
     }
   ],
-  "bankroll_note": "Current bankroll: $29.23 | Daily wagered: $2.00 | Daily limit: $25"
+  "passed_games": [
+    {
+      "game": "NYY Yankees @ TOR Blue Jays",
+      "reason": "Will Warren (7-1, 3.41 ERA) vs Gausman (4-4, 3.60 ERA). Edge below 3% minimum at -131 price. Passed."
+    }
+  ],
+  "bankroll_note": "Units only — dollar amounts not shown on public dashboard",
+  "total_units_at_risk": 0.4
 }
