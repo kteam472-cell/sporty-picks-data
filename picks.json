@@ -1,35 +1,47 @@
 {
-  "date": "2026-06-17",
-  "generated": "2026-06-17T10:00:00",
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T10:00:00ET",
+  "sport": "MLB",
   "picks": [
     {
-      "sport": "MLB",
-      "game": "MIA Marlins @ PHI Phillies",
-      "time": "1:05 PM ET",
-      "pick": "Marlins ML",
-      "odds": "+104",
-      "units": 0.15,
-      "edge_pct": 4.0,
-      "reasoning": "Alcantara (6-4, 4.25 ERA) vs Painter (1-7, 6.43 ERA). Sharp money fading 88% public on Phillies.",
-      "sp_home": "Andrew Painter (1-7, 6.43 ERA)",
-      "sp_away": "Sandy Alcantara (6-4, 4.25 ERA)",
-      "status": "PENDING_MANUAL"
+      "game": "SFG Giants @ ATL Braves",
+      "time": "7:15 PM ET",
+      "venue": "Truist Park, Atlanta",
+      "pick": "ATL Braves ML",
+      "odds": -142,
+      "units": 2.0,
+      "edge_pct": 3.3,
+      "true_probability": 0.62,
+      "implied_probability": 0.587,
+      "reasoning": "Martín Pérez (2.90 ERA, 1.05 WHIP) vs Landen Roupp (4.24 ERA). Braves (46-27) have massive bounce-back motivation after Giants (31-43) are shooting for a home series sweep. Pérez is elite and will suppress SF offense. Braves need this game."
     },
     {
-      "sport": "MLB",
-      "game": "CLE Guardians @ MIL Brewers",
-      "time": "7:40 PM ET",
-      "pick": "Guardians ML",
-      "odds": "+130",
-      "units": 0.20,
-      "edge_pct": 7.5,
-      "reasoning": "Williams (9-3, 3.32 ERA) vs Sproat (1-4, 5.70 ERA). Market over-valuing Brewers home field vs massive SP mismatch.",
-      "sp_home": "Brandon Sproat (1-4, 5.70 ERA)",
-      "sp_away": "Gavin Williams (9-3, 3.32 ERA)",
-      "status": "PENDING_MANUAL"
+      "game": "SFG Giants @ ATL Braves",
+      "time": "7:15 PM ET",
+      "venue": "Truist Park, Atlanta",
+      "pick": "UNDER 8",
+      "odds": -110,
+      "units": 1.5,
+      "edge_pct": 3.5,
+      "true_probability": 0.56,
+      "implied_probability": 0.524,
+      "reasoning": "Elite Pérez (2.90 ERA, 1.05 WHIP) will hold Giants to 2-3 runs. Braves expected to score 3-4 off Roupp (4.24 ERA). Expected total 5-7 runs — comfortably under 8."
+    },
+    {
+      "game": "CWS White Sox @ NYY Yankees",
+      "time": "7:05 PM ET",
+      "venue": "Yankee Stadium, New York",
+      "pick": "NYY Yankees ML",
+      "odds": -154,
+      "units": 1.5,
+      "edge_pct": 3.8,
+      "true_probability": 0.644,
+      "implied_probability": 0.606,
+      "reasoning": "Yankees at home vs one of baseball's worst teams. 64.4% estimated win probability. Clear team quality gap. CWS at +130 overprices underdog value — they are 3-8 ATS in Burke's starts."
     }
   ],
-  "bankroll": 27.41,
-  "total_risk": 3.50,
-  "note": "Telegram blocked in cloud env — picks via GitHub + PushNotification. Zack: place on Hard Rock Bet before first pitch."
+  "bankroll_notes": {
+    "total_units_at_risk": 5.0,
+    "daily_limit_remaining": 20.0
+  }
 }
