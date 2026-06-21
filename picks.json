@@ -1,30 +1,17 @@
 {
-  "date": "2026-06-20",
+  "date": "2026-06-21",
   "picks": [
     {
       "sport": "MLB",
-      "game": "SFG Giants @ MIA Marlins",
-      "bet_type": "Total",
-      "pick": "Under 8",
-      "odds": -110,
-      "units": 2.0,
-      "edge_pct": 10.0,
-      "reasoning": "Max Meyer (7-0, 2.75 ERA, 9.8 K/9) vs Trevor McDonald (2-4, 4.64 ERA). Giants 31-43 with weakened lineup. Elite arm suppresses scoring.",
-      "game_time": "~7:10 PM ET"
-    },
-    {
-      "sport": "MLB",
-      "game": "NYM Mets @ PHI Phillies",
-      "bet_type": "Total",
-      "pick": "Under 7.5",
-      "odds": -112,
-      "units": 2.0,
-      "edge_pct": 10.0,
-      "reasoning": "Cristopher Sanchez (8-3, 1.46 ERA — MLB league-best, 103:17 K:BB) vs Freddy Peralta (5-5, 3.90 ERA). Dominant ace anchors low-scoring game.",
-      "game_time": "7:15 PM ET"
+      "game": "CIN Reds @ NYY Yankees",
+      "time": "1:35 PM ET",
+      "pick": "Reds ML",
+      "odds": "+102",
+      "units": 1,
+      "edge": "+8.5%",
+      "reasoning": "Chase Burns (8-1, 2.01 ERA, 10.6 K/9) vs inexperienced Elmer Rodriguez-Cruz (4.15 ERA, 1.85 WHIP, never completed 5 IP in any MLB start). Yankees missing 4 key regulars (Judge, Stanton, Torres, Grisham). Reds 10-4 ATS in Burns' 2026 starts. Heavy public on Yankees (85-91%) with sharp contrarian value on Reds."
     }
   ],
-  "bankroll_units": 26.24,
-  "total_units_at_risk": 4.0,
-  "status": "PENDING_MANUAL"
+  "total_units": 1,
+  "bankroll_note": "Picks expressed in units only. 1 unit = standard single-game stake."
 }
