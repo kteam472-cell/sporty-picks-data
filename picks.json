@@ -1,17 +1,29 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "picks": [
     {
-      "sport": "MLB",
-      "game": "CIN Reds @ NYY Yankees",
-      "time": "1:35 PM ET",
-      "pick": "Reds ML",
-      "odds": "+102",
-      "units": 1,
-      "edge": "+8.5%",
-      "reasoning": "Chase Burns (8-1, 2.01 ERA, 10.6 K/9) vs inexperienced Elmer Rodriguez-Cruz (4.15 ERA, 1.85 WHIP, never completed 5 IP in any MLB start). Yankees missing 4 key regulars (Judge, Stanton, Torres, Grisham). Reds 10-4 ATS in Burns' 2026 starts. Heavy public on Yankees (85-91%) with sharp contrarian value on Reds."
+      "game": "NYY @ DET",
+      "time": "6:10 PM ET",
+      "venue": "Comerica Park, Detroit",
+      "pick": "Under 8",
+      "odds": -104,
+      "units": 1.5,
+      "edge_pct": 7.0,
+      "reasoning": "Gerrit Cole (2.57 ERA) starts for NYY. Depleted Yankees lineup (Judge, Stanton, Torres, Grisham all IL) limits offense. Framber Valdez (DET, 4.09 ERA) decent but Tigers avg 4.1 rpg vs average pitching — expect ~2-2.5 off Cole. Expected total ~6 runs, well under 8. Weather: 67F, 0% rain, mild wind at Comerica (spacious park)."
+    },
+    {
+      "game": "CHC @ NYM",
+      "time": "7:10 PM ET",
+      "venue": "Citi Field, New York",
+      "pick": "Cubs ML",
+      "odds": -112,
+      "units": 1.25,
+      "edge_pct": 5.5,
+      "reasoning": "Cubs (40-37) vs Mets (34-43). Imanaga (4-6, 4.26 ERA) vs Senga (0-5, 9.00 ERA, returning from lumbar IL). Senga has been catastrophically bad — FanDuel model gives Cubs 59.6% win probability vs implied 52.8%. Weather: possible rain at Citi Field — if postponed, bet voids (neutral)."
     }
   ],
-  "total_units": 1,
-  "bankroll_note": "Picks expressed in units only. 1 unit = standard single-game stake."
+  "total_units": 2.75,
+  "bankroll_note": "Bankroll $24.28 entering today. Total risk $2.75.",
+  "generated_by": "Sporty AI — PMI",
+  "telegram_status": "BLOCKED (egress restrictions) — picks delivered via GitHub commit"
 }
