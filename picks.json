@@ -1,29 +1,52 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T10:45:00-04:00",
   "picks": [
     {
-      "game": "NYY @ DET",
-      "time": "6:10 PM ET",
-      "venue": "Comerica Park, Detroit",
-      "pick": "Under 8",
-      "odds": -104,
-      "units": 1.5,
-      "edge_pct": 7.0,
-      "reasoning": "Gerrit Cole (2.57 ERA) starts for NYY. Depleted Yankees lineup (Judge, Stanton, Torres, Grisham all IL) limits offense. Framber Valdez (DET, 4.09 ERA) decent but Tigers avg 4.1 rpg vs average pitching — expect ~2-2.5 off Cole. Expected total ~6 runs, well under 8. Weather: 67F, 0% rain, mild wind at Comerica (spacious park)."
-    },
-    {
-      "game": "CHC @ NYM",
+      "sport": "MLB",
+      "game": "CHC Cubs @ NYM Mets",
       "time": "7:10 PM ET",
       "venue": "Citi Field, New York",
-      "pick": "Cubs ML",
-      "odds": -112,
+      "pick": "Cubs Moneyline",
+      "odds": "+102",
+      "units": 1.5,
+      "edge_pct": 5.0,
+      "reasoning": "Senga (0-5, 9.00 ERA) starting for Mets vs Cabrera (5.21 ERA). Cubs better team at near-coin-flip price. Rain risk at Citi Field (72%) — may void.",
+      "risk_note": "HIGH RAIN RISK — 72% precipitation chance at Citi Field. Could postpone.",
+      "status": "PENDING"
+    },
+    {
+      "sport": "MLB",
+      "game": "NYY Yankees @ DET Tigers",
+      "time": "6:40 PM ET",
+      "venue": "Comerica Park, Detroit",
+      "pick": "Under 7.5",
+      "odds": "-102",
+      "units": 2.0,
+      "edge_pct": 7.5,
+      "reasoning": "Mize (2.27 ERA, WHIP 0.97) for Tigers vs Rodón (3.50 ERA). Yankees missing Judge and Stanton. Line moved +18 cents toward Tigers (sharp money signal). Half-point total eliminates push risk.",
+      "risk_note": "Mize returning from IL — possible pitch count restriction (~80 pitches, ~6 innings)",
+      "status": "PENDING"
+    },
+    {
+      "sport": "MLB",
+      "game": "ARI Diamondbacks @ STL Cardinals",
+      "time": "7:45 PM ET",
+      "venue": "Busch Stadium, St. Louis",
+      "pick": "ARI Moneyline",
+      "odds": "-102",
       "units": 1.25,
-      "edge_pct": 5.5,
-      "reasoning": "Cubs (40-37) vs Mets (34-43). Imanaga (4-6, 4.26 ERA) vs Senga (0-5, 9.00 ERA, returning from lumbar IL). Senga has been catastrophically bad — FanDuel model gives Cubs 59.6% win probability vs implied 52.8%. Weather: possible rain at Citi Field — if postponed, bet voids (neutral)."
+      "edge_pct": 5.0,
+      "reasoning": "E. Rodriguez (2.45 ERA) vs Leahy (4.63 ERA). Cardinals team ERA 5.97 last 10 games. RLM signal: 78% of money on Cardinals but line only -115 (compressed = sharp money on ARI).",
+      "risk_note": "Home field advantage for Cardinals is the primary risk",
+      "status": "PENDING"
     }
   ],
-  "total_units": 2.75,
-  "bankroll_note": "Bankroll $24.28 entering today. Total risk $2.75.",
-  "generated_by": "Sporty AI — PMI",
-  "telegram_status": "BLOCKED (egress restrictions) — picks delivered via GitHub commit"
+  "summary": {
+    "total_picks": 3,
+    "total_units_at_risk": 4.75,
+    "sport_breakdown": {"MLB": 3},
+    "best_edge": "NYY@DET Under 7.5 (+7.5% edge)",
+    "rain_risk_game": "CHC @ NYM (72% at Citi Field)"
+  }
 }
