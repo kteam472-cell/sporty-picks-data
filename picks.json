@@ -1,52 +1,67 @@
 {
-  "date": "2026-06-23",
-  "generated_at": "2026-06-23T10:45:00-04:00",
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T10:15:00-04:00",
   "picks": [
     {
       "sport": "MLB",
-      "game": "CHC Cubs @ NYM Mets",
-      "time": "7:10 PM ET",
-      "venue": "Citi Field, New York",
-      "pick": "Cubs Moneyline",
-      "odds": "+102",
-      "units": 1.5,
-      "edge_pct": 5.0,
-      "reasoning": "Senga (0-5, 9.00 ERA) starting for Mets vs Cabrera (5.21 ERA). Cubs better team at near-coin-flip price. Rain risk at Citi Field (72%) — may void.",
-      "risk_note": "HIGH RAIN RISK — 72% precipitation chance at Citi Field. Could postpone.",
-      "status": "PENDING"
-    },
-    {
-      "sport": "MLB",
-      "game": "NYY Yankees @ DET Tigers",
-      "time": "6:40 PM ET",
-      "venue": "Comerica Park, Detroit",
-      "pick": "Under 7.5",
-      "odds": "-102",
+      "game": "NYM Mets @ TOR Blue Jays",
+      "time": "7:07 PM ET",
+      "venue": "Rogers Centre, Toronto (dome)",
+      "pick": "Toronto Blue Jays ML",
+      "odds": "-128",
       "units": 2.0,
-      "edge_pct": 7.5,
-      "reasoning": "Mize (2.27 ERA, WHIP 0.97) for Tigers vs Rodón (3.50 ERA). Yankees missing Judge and Stanton. Line moved +18 cents toward Tigers (sharp money signal). Half-point total eliminates push risk.",
-      "risk_note": "Mize returning from IL — possible pitch count restriction (~80 pitches, ~6 innings)",
+      "edge_pct": 5.9,
+      "reasoning": "Yesavage (3.56 ERA, 5-2 last 10 with 3.13 ERA) at home vs Manaea (NYM, 5.08 ERA). SP quality edge with home field advantage at Rogers Centre dome.",
+      "risk_note": "Rogers Centre is a dome \u2014 no weather risk.",
       "status": "PENDING"
     },
     {
       "sport": "MLB",
-      "game": "ARI Diamondbacks @ STL Cardinals",
-      "time": "7:45 PM ET",
-      "venue": "Busch Stadium, St. Louis",
-      "pick": "ARI Moneyline",
-      "odds": "-102",
-      "units": 1.25,
-      "edge_pct": 5.0,
-      "reasoning": "E. Rodriguez (2.45 ERA) vs Leahy (4.63 ERA). Cardinals team ERA 5.97 last 10 games. RLM signal: 78% of money on Cardinals but line only -115 (compressed = sharp money on ARI).",
-      "risk_note": "Home field advantage for Cardinals is the primary risk",
+      "game": "LAA Angels @ SEA Mariners",
+      "time": "9:40 PM ET",
+      "venue": "T-Mobile Park, Seattle (retractable roof)",
+      "pick": "Seattle Mariners ML",
+      "odds": "-220",
+      "units": 3.5,
+      "edge_pct": 9.0,
+      "reasoning": "Kirby (3.94 ERA) at home vs Ryan Johnson (1-2, 8.84 ERA) \u2014 one of the largest SP quality gaps on the June 29 slate. Johnson is among the worst ERAs in MLB.",
+      "risk_note": "T-Mobile Park has retractable roof \u2014 no weather risk.",
       "status": "PENDING"
     }
   ],
+  "settled_results": [
+    {
+      "date": "2026-06-23",
+      "game": "CHC Cubs @ NYM Mets",
+      "pick": "Cubs ML +102",
+      "units": 1.5,
+      "result": "WIN",
+      "profit_units": 1.53
+    },
+    {
+      "date": "2026-06-23",
+      "game": "NYY Yankees @ DET Tigers",
+      "pick": "Under 7.5 -102",
+      "units": 2.0,
+      "result": "WIN",
+      "profit_units": 1.96
+    },
+    {
+      "date": "2026-06-23",
+      "game": "ARI Diamondbacks @ STL Cardinals",
+      "pick": "ARI ML -102",
+      "units": 1.25,
+      "result": "WIN",
+      "profit_units": 1.23
+    }
+  ],
   "summary": {
-    "total_picks": 3,
-    "total_units_at_risk": 4.75,
-    "sport_breakdown": {"MLB": 3},
-    "best_edge": "NYY@DET Under 7.5 (+7.5% edge)",
-    "rain_risk_game": "CHC @ NYM (72% at Citi Field)"
+    "total_picks": 2,
+    "total_units_at_risk": 5.5,
+    "sport_breakdown": {
+      "MLB": 2
+    },
+    "best_edge": "SEA ML -220 (+9% edge, Kirby vs Johnson 8.84 ERA)",
+    "bankroll_note": "Bankroll 9.00 after Jun23 sweep (+$4.72). Win rate 54.5% (12W-10L), ROI +8.8%"
   }
 }
